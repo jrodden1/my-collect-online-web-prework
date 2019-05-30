@@ -4,7 +4,7 @@ def my_collect(words)
     new_collection = []
     while i < words.length
       yield words[i]
-      new_collection << words[i]
+      new_collection << yield eval
       i = i + 1
     end
   end
