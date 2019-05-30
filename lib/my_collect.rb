@@ -10,4 +10,3 @@ def my_collect(words)
   end
   new_collection
 end
-
