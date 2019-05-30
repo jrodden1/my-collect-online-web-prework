@@ -3,8 +3,8 @@ def my_collect(words)
     i = 0
     new_collection = []
     while i < words.length
-      new_collection << yield words[i]
-      
+      new_var = yield words[i]
+      new_collection << new_var
       i = i + 1
     end
   end
