@@ -7,7 +7,7 @@ def my_collect(words)
       yield words[i]
       binding.pry
       new_collection << yield
-      binding.pry 
+      binding.pry
       i = i + 1
     end
   end
